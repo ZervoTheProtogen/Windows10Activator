@@ -10,10 +10,10 @@ set arg2 = %~2
 
 if arg1 == Home set key = TX9XD-98N7V-6WMQ6-BX7FG-H8Q99 && goto getServer
 if arg1 == HomeN set key = 3KHY7-WNT83-DGQKR-F7HPR-844BM && goto getServer
-if arg1 == HomeSingleLang set key = 7HNRX-D7KGG-3K4RQ-4WPJ4-YTDFH && goto getServer
-if arg1 == HomeCountrySpec set key = PVMJN-6DFY6–9CCP6–7BKTT-D3WVR && goto getServer
-if arg1 == Proffesional set key = W269N-WFGWX-YVC9B-4J6C9-T83GX && goto getServer
-if arg1 == ProffesionalN set key = MH37W-N47XK-V7XM9-C7227-GCQG9 && goto getServer
+if arg1 == HomeSingleLanguage set key = 7HNRX-D7KGG-3K4RQ-4WPJ4-YTDFH && goto getServer
+if arg1 == HomeCountrySpecific set key = PVMJN-6DFY6–9CCP6–7BKTT-D3WVR && goto getServer
+if arg1 == Professional set key = W269N-WFGWX-YVC9B-4J6C9-T83GX && goto getServer
+if arg1 == ProfessionalN set key = MH37W-N47XK-V7XM9-C7227-GCQG9 && goto getServer
 if arg1 == Education set key = NW6C2-QMPVW-D7KKK-3GKT6-VCFB2 && goto getServer
 if arg1 == EducationN set key = 2WH4N-8QGBV-H22JP-CT43Q-MDWWJ && goto getServer
 if arg1 == Enterprise set key = NPPR9-FWDCX-D2C8J-H872K-2YT43 && goto getServer
