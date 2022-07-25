@@ -8,8 +8,8 @@ import os.path
 version = 1.0 # release version
 icon = 'icon.ico' #path to window icon
 
-# workdir = os.path.dirname(os.path.abspath(__file__))
-# activator = os.path.join(workdir, 'activate.bat') # get path to activator script
+workdir = os.path.dirname(os.path.abspath(__file__))
+activator = os.path.join(workdir, 'activate.bat') # get path to activator script
 
 # create dearpygui viewport
 dpg.create_context()
@@ -59,7 +59,7 @@ def activate_button():
     dpg.delete_item("machine_text")
     dpg.delete_item("activate_button")
 
-    subprocess.call(['activate.bat', selected_release, selected_machine])
+    subprocess.call(['runas', '/user:[[dommainName]\\]userName', activator, selected_release, selected_machine])
 
     exit()
 
