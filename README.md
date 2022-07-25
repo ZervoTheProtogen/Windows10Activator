@@ -15,6 +15,7 @@ on me, because it was you who decided to do something and not me, i just made th
 Using a release is pretty straight forward, just download a release, extract it and launch the file called Windows10Activator.exe.
 
 Building a release is also pretty simple. Just use a python exe compiler of your choice (i used [auto-py-to-exe](https://github.com/brentvollebregt/auto-py-to-exe)). Make sure to include the icon and the activate.bat file.
+I suggest converting the batch file to exe as well. I used 'Bat To Exe Converter v3.2', sadly the official source is no longer available.
 I will provide more detailed instructions in the future but if you run into any issues before then feel free to open a new issue or contact me.
 
 ## Contributing
