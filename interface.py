@@ -8,8 +8,11 @@ import os.path
 version = 1.0 # release version
 icon = 'icon.ico' #path to window icon
 
+# get path to activator script
 workdir = os.path.dirname(os.path.abspath(__file__))
-activator = os.path.join(workdir, 'activate.bat') # get path to activator script
+activator = os.path.join(workdir, 'activate.bat')
+if not file_exists(activator):
+    activator = os.path.join(workdir, 'activate.exe')
 
 # create dearpygui viewport
 dpg.create_context()
