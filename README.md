@@ -12,7 +12,9 @@ on me, because it was you who decided to do something and not me, i just made th
 
 ## Usage
 
-Using a release is pretty straight forward, just download a release, extract it and launch the file called Windows10Activator.exe.
+Using a release is pretty straight forward, just download a release, extract it and launch the file called Windows10Activator.exe. HIGHLY recommended to disable any anti-virus service, read more on why below in the warning.
+
+**WARNING:** If it seems like it's not starting, just wait. It is most likely your anti-virus blocking the file due to the way py-to-exe created the file. If the file is quaranteened do *NOT* restore it. This is very likely to create an 'invincible' file. This means that there is no way to delete, move, or change the properties of the file at ALL. Your only option if this happens is to plug in the harddrive into another device and delete it. I will try to fix this in the future but as of right now i am not sure *exactly* what is causing it. A workaround is to disable your anti-virus when you run the program.
 
 Building a release is also pretty simple. Just use a python exe compiler of your choice (i used [auto-py-to-exe](https://github.com/brentvollebregt/auto-py-to-exe)). Make sure to include the icon and the activate.bat file.
 I suggest converting the batch file to exe as well. I used 'Bat To Exe Converter v3.2', sadly the official source is no longer available.
